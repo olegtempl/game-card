@@ -1,0 +1,47 @@
+/*
+@import url(element_page/buttons);
+@import url(element_page/forms);
+@import url(element_page/message-bars);
+@import url(element_page/loading-spinner);
+*/
+/*@import url(blocks_page/footer);*/
+@import url(blocks_page/header);
+/*@import url(blocks_page/main);*/
+/*
+@import url(blocks_page/preload/preload);
+@import url(blocks_page/preload/card_shirt);
+@import url(blocks_page/preload/menu_game);
+@import url(blocks_page/preload/preload_pong);
+@import url(blocks_page/preload/rules);
+*/
+
+/*@import url(variables/vendor/reset);*/
+/*
+ @import url(element_page/);
+ @import url(element_page/);
+ @import url(element_page/);
+*/
+
+@import url(element_page/buttons);
+@import url(element_page/forms);
+@import url(element_page/message-bars);
+@import url(element_page/loading-spinner);
+
+@import url(blocks_page/footer);
+@import url(blocks_page/header);
+@import url(blocks_page/main);
+
+@import url(blocks_page/preload/preload);
+@import url(blocks_page/preload/card_shirt);
+@import url(blocks_page/preload/menu_game);
+@import url(blocks_page/preload/preload_pong);
+@import url(blocks_page/preload/rules);
+
+
+@import url(variables/vendor/reset);
+
+/* @import url(element_page/);
+ @import url(element_page/);
+ @import url(element_page/);
+
+*/

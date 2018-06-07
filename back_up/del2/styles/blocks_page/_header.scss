@@ -1,0 +1,26 @@
+header {
+		background-color: rgba(24, 35, 47, 0.5);
+		border: 3px solid #1abc9c;
+		border-radius: 5px ;
+		margin-bottom: 60px;	
+				  display: none;
+
+
+}
+
+
+header .msg {
+		display: none;
+	}
+
+
+header .user-panels {
+		 display: none;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: row;
+		align-items: baseline;
+		padding: 25px;
+		height: 150px;
+		width: 100%;
+	}

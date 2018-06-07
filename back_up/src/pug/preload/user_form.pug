@@ -1,0 +1,51 @@
+//- форма для заполнения профиля игрока
+//-.text-orange
+form(name="user")
+
+	h3.text-sm.text-primary Fill the profile  
+	//- error name
+	#error-block
+		.input.error
+			input#name_error(type="text", name="name", placeholder="Enter your name")
+		p.text-error.text-xs Non correct name
+	
+	.input
+		input( id="name" type="text", name="name", placeholder="Enter your name")
+
+
+	//- error surname
+	#error-block
+		.input.error
+			input#surname_error(type="text", name="surname", placeholder="Enter your surname")
+		p.text-error.text-xs Non correct surname
+
+	.input
+		input(id="surname", type="text", name="surname", placeholder="Enter your surname")
+
+	//- error email
+	#error-block
+		.input.error
+			input#name_email(type="text", name="surname", placeholder="Enter your surname")
+		p.text-error.text-xs Non correct email
+	
+
+
+	.input
+		input( id="email", type="email", name="email", placeholder="Enter your email")
+	
+
+
+	//- Сложность игры
+	h3.text-sm.text-primary Select the duficult of level 
+	.radio
+		input#radio1(name='easy', type='radio', placeholder="Easy  level")
+		label.text-gray(for='easy') Easy
+	.radio
+		input#radio2(name='medium', type='radio', placeholder="Medium  level")
+		label.text-gray(for='medium') Medium
+	.radio
+		input#radio3(name='hard', type='radio', placeholder="Hard  level")
+		label.text-gray(for='hard') Hard
+
+	//- input.button(type="button", value="Start the game" placeholder="Touch to start game")
+

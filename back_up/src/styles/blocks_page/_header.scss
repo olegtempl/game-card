@@ -1,0 +1,41 @@
+//=====================================
+//
+//				HEADER
+//
+//=====================================
+
+
+//
+//		VARIABLES_HEADER
+//
+
+
+
+
+
+//
+//		STYLES_HEADER
+//
+
+header {
+		background-color: rgba(24, 35, 47, 0.5);
+		border: 3px solid $brand-primary;
+		border-radius: 5px ;
+		margin-bottom: 60px;	
+
+	.msg {
+		display: none;
+	}
+
+
+	.user-panels {
+		// display: none;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: row;
+		align-items: baseline;
+		padding: 25px;
+		height: 150px;
+		width: 100%;
+	}
+}

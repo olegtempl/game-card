@@ -1,0 +1,43 @@
+.loader {	
+		display: flex;
+		flex-direction: column;	
+		justify-content: center;
+		  display: none;
+		 /*marging-top: 550px;*/
+}
+
+.preload {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;	
+	align-items: center;
+	width: 600px;
+	max-height: 800px;
+
+}
+
+
+
+form {
+display: flex;
+flex-direction: column;	
+justify-content: center;
+
+
+}
+
+/* input {
+ 	cursor: pointer;
+ }
+*/ 
+
+/*padding: 20px 80px ;*/
+#error-block {
+	display: none;
+}
+
+@import url(card_shirt);
+@import url(menu_game);
+@import url(rules);
+@import url(preload_pong);

@@ -1,0 +1,58 @@
+/**
+ *                BACKGROUND COLORS
+ */
+
+// .background {
+//   @each $type, $color in $background-color-map {
+    // &-#{$type} {
+//       background-color: $color;
+//     }
+//   }
+// }
+
+
+$brand-primary:         #1abc9c;
+$brand-secondary:       #9b59b6;
+$brand-dark:            #18232f;
+$brand-light:           #34495e;
+
+$color-success:         #4caf50;
+$color-info:            #5bc0de;
+$color-warning:         #f0ad4e;
+$color-error:           #e74c3c;
+
+$gray:                  #dee6ea;
+$gray-light:            #edf3f6;
+$deep-blue:             #171722; // Deprecated
+$white:                 #ffffff;
+
+.bgc {
+	&-p {
+		background-color: $brand-primary;
+	}
+	&-s {
+		background-color: $brand-secondary;	
+	}
+	&-s {
+		background-color: $color-success;
+	}
+	&-b {
+		background-color: $deep-blue;
+	}
+}
+
+.c {
+	&-p {
+		color: $brand-primary;
+	}
+	&-s {
+		color: $brand-secondary;	
+	}
+	&-s {
+		color: $color-success;
+	}
+	&-b {
+		color: $deep-blue;
+	}
+}
+

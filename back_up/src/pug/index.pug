@@ -1,0 +1,46 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel='stylesheet', type='text/css', href='styles/index.css')
+        title Card game
+    body
+        //- headerrules.pug
+        
+        header
+            include header/header.pug
+        
+        //- main
+        main
+
+            //- меню перед входом в игру
+            //- .preload#preloadBlock    
+            //-     //- indication load page
+            //-     .loader#loader
+            //-         <div class="indicator" id="indicator"> 
+            //-           <svg width="16px" height="12px">
+            //-             <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+            //-             <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+            //-           </svg>
+            //-         </div>
+            //-         <h2 class="text-sm text-primary">Идет загрузка... </h2>
+            //-     .game-menu#game-menu
+            //-         //- правила игры
+            //-         include preload/rules.pug
+            //-         //- анкета для заполнения
+            //-         include preload/user_form.pug
+            //-         include preload/card_shirt.pug
+
+
+            //- меню стандартное для игр
+                include preload/menu_game.pug
+            
+            //- поле для карт
+            include main/block_1.pug
+            
+        //- footer
+        footer
+            include footer/footer.pug
+        script(src="js/index.js")

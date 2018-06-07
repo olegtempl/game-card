@@ -1,0 +1,25 @@
+//- форма для заполнения профиля игрока
+//-.text-orange
+form(name="user")
+
+	h3 Fill the profile  
+	input( id="name" type="text", name="name", placeholder="Enter your name")
+	input(id="surname", type="text", name="surname", placeholder="Enter your surname")
+	input( id="email", type="email", name="email", placeholder="Enter your email")
+
+	
+
+
+	//- Сложность игры
+	h3 Select the duficult of level 
+
+	.radio-wrap
+		input#radio1(name='easy', type='checkbox', placeholder="Easy  level")
+		label(for='easy') Easy
+		input#radio2(name='medium', type='checkbox', placeholder="Medium  level")
+		label(for='medium') Medium
+		input#radio3(name='hard', type='checkbox', placeholder="Hard  level")
+		label(for='hard') Hard
+
+	//- input.button(type="button", value="Start the game" placeholder="Touch to start game")
+
